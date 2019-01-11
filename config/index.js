@@ -1,6 +1,6 @@
 const config = {
-  projectName: 'test',
-  date: '2018-12-12',
+  projectName: 'myApp',
+  date: '2018-12-17',
   designWidth: 750,
   deviceRatio: {
     '640': 2.34 / 2,
@@ -16,8 +16,8 @@ const config = {
         'env'
       ],
       plugins: [
-        'transform-class-properties',
         'transform-decorators-legacy',
+        'transform-class-properties',
         'transform-object-rest-spread'
       ]
     }
@@ -25,7 +25,7 @@ const config = {
   defineConstants: {
   },
   copy: {
-     patterns: [
+    patterns: [
     ],
     options: {
     }
